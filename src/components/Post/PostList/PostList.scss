@@ -1,0 +1,15 @@
+/* Add this CSS to your stylesheet or component's CSS */
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Specify the maximum width or any other styles you want */
+    max-width: 200px; /* Adjust this value as needed */
+}
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+}  

@@ -1,0 +1,19 @@
+/* main.scss */
+
+// Import variables and mixins
+@import 'variables';
+@import 'mixins';
+// Import component-specific SCSS
+@import '../components/Header/Header';
+
+/* Global styles can go here */
+body {
+    background-color: $primary-color;
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire app */
+    color: $text-color;    
+}
+
+/* Apply mixins */
+.centered-element {
+  @include center-vertically;
+}

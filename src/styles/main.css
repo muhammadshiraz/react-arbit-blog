@@ -1,0 +1,16 @@
+/* main.scss */
+/* _variables.scss */
+/* _mixins.scss */
+/* Global styles can go here */
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: "Roboto", sans-serif; /* Apply Roboto font to the entire app */
+  color: #333;
+}
+
+/* Apply mixins */
+.centered-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
