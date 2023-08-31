@@ -47,3 +47,18 @@ Follow these steps to set up and run the application on your local machine:
 
    ```bash
    git clone https://github.com/muhammadshiraz/react-arbit-blog.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd react-arbit-blog
+
+3. Install project dependencies:
+
+   ```bash
+   npm install
+
+4. Start the development server:
+
+   ```bash
+   npm start
